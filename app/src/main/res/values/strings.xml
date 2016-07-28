@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">HawksSupport</string>
+
+
+    <string name="flat_prompt">Choose a Flat No</string>
+    <string-array name="flat_no">
+        <item>Flat One</item>
+        <item>Flat Twoe</item>
+        <item>Flat three</item>
+        <item>Flat four</item>
+    </string-array>
+
+    <string name="room_prompt">Choose a Room No</string>
+    <string-array name="room_no">
+        <item>Room 101</item>
+        <item>Room 102</item>
+        <item>Room 103</item>
+        <item>Room 104</item>
+    </string-array>
+
 </resources>
