@@ -141,7 +141,8 @@
         android:layout_height="wrap_content"
         android:background="@color/footerColor"
         android:padding="10dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_gravity="center">
 
         <TextView
             android:id="@+id/getStart"
@@ -153,6 +154,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="@color/white"
             android:textSize="20sp" />
+
     </LinearLayout>
 
 </LinearLayout>
