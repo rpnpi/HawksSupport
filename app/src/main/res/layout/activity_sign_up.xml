@@ -9,10 +9,12 @@
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
@@ -32,10 +34,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:padding="3dp"
-                android:paddingBottom="0dp"
                 android:minHeight="360dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="3dp"
+                android:paddingBottom="0dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -43,30 +45,30 @@
                     android:orientation="horizontal">
 
                     <EditText
-                        android:id="@+id/editText"
+                        android:id="@+id/firstName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:ems="10"
                         android:layout_weight="1"
+                        android:ems="10"
                         android:hint="First Name"
                         android:inputType="textPersonName"
                         android:padding="25dp"
                         android:textColorHint="@color/input_color" />
 
                     <EditText
-                        android:id="@+id/editText123"
+                        android:id="@+id/lastName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_weight="1"
                         android:ems="10"
                         android:hint="Last Name"
                         android:inputType="textPersonName"
                         android:padding="25dp"
-                        android:textColorHint="@color/input_color"
-                        android:layout_weight="1" />
+                        android:textColorHint="@color/input_color" />
                 </LinearLayout>
 
                 <EditText
-                    android:id="@+id/editText3"
+                    android:id="@+id/emailAddress"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -74,8 +76,9 @@
                     android:inputType="textEmailAddress"
                     android:padding="25sp"
                     android:textColorHint="@color/input_color" />
+
                 <EditText
-                    android:id="@+id/editText323"
+                    android:id="@+id/password"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -99,7 +102,7 @@
                         android:textColorHint="@color/input_color" />
 
                     <EditText
-                        android:id="@+id/editText5"
+                        android:id="@+id/phoneNumber"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -117,21 +120,21 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@color/footerColor"
                 android:orientation="vertical"
                 android:padding="12dp"
-                android:paddingBottom="1dp"
-                android:layout_weight="1">
+                android:paddingBottom="1dp">
 
                 <TextView
                     android:id="@+id/footerTextSingUp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:fontFamily="Times New Roman"
                     android:text="Small Text"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="@color/white"
-                    android:fontFamily="Times New Roman"
                     android:textSize="20sp" />
             </LinearLayout>
         </LinearLayout>
