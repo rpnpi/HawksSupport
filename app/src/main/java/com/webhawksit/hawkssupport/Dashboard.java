@@ -1,5 +1,6 @@
 package com.webhawksit.hawkssupport;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -89,4 +90,12 @@ public class Dashboard extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+    public void leisure(View view){
+        Intent intent = new Intent(getApplicationContext(),LeisureActivity.class);
+        startActivity(intent);
+    }
+
+
+
 }
